@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.damarie.maynardlibrary.MainActivity">
+
+    <ImageView
+        android:id="@+id/maynard_library"
+        android:src="@drawable/maynard_library"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="The library at night."
+         />
+    <TextView
+        android:id="@+id/business_name"
+        android:text="Maynard Public Library"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        android:textColor="#000"/>
+
+    <LinearLayout
+        android:id="@+id/full_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/business_name"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="77 Nason St"
+            android:textSize="24sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/city_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address"
+            android:text="Maynard, MA 01754"
+            android:textSize="24sp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/full_address"
+        android:text="(978)897-1010"
+        android:textSize="20sp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|right"
+        android:text="Open 10am - 6pm daily"
+        android:textSize="24sp"
+        android:textColor="#000"
+        />
+
+</RelativeLayout>
