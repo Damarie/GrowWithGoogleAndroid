@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp">
+
+    <LinearLayout
+        android:id="@+id/score_fencers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp">
+
+        <LinearLayout
+            android:id="@+id/fencer_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:context="com.damarie.fencingscore.MainActivity">
+
+            <TextView
+                android:id="@+id/fencer_name_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_horizontal"
+                android:text="Fencer One"
+                android:textColor="#616161" />
+
+            <TextView
+                android:id="@+id/fencer_one_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_horizontal"
+                android:paddingVertical="8dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="56sp" />
+
+            <Button
+                android:id="@+id/touch_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:onClick="addTouchOne"
+                android:text="Touch" />
+
+            <Button
+                android:id="@+id/group_1_offense_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addGroup1One"
+                android:text="Group 1 Offense" />
+
+            <Button
+                android:id="@+id/group_2_offense_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:onClick="addGroup2One"
+                android:text="Group 2 Offense" />
+
+            <Button
+                android:id="@+id/group_3_offense_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addGroup3One"
+                android:text="Group 3 Offense" />
+
+            <Button
+                android:id="@+id/group_4_offense_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:onClick="addGroup4One"
+                android:text="Group 4 Offense" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/fencer_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:context="com.damarie.fencingscore.MainActivity">
+
+            <TextView
+                android:id="@+id/fencer_name_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_horizontal"
+                android:text="Fencer Two"
+                android:textColor="#616161" />
+
+            <TextView
+                android:id="@+id/fencer_two_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_horizontal"
+                android:paddingVertical="8dp"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="56sp" />
+
+            <Button
+                android:id="@+id/touch_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:onClick="addTouchTwo"
+                android:text="Touch" />
+
+            <Button
+                android:id="@+id/group_1_offense_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addGroup1Two"
+                android:text="Group 1 Offense" />
+
+            <Button
+                android:id="@+id/group_2_offense_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:onClick="addGroup2Two"
+                android:text="Group 2 Offense" />
+
+            <Button
+                android:id="@+id/group_3_offense_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addGroup3Two"
+                android:text="Group 3 Offense" />
+
+            <Button
+                android:id="@+id/group_4_offense_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:onClick="addGroup4Two"
+                android:text="Group 4 Offense" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="resetScore"
+        android:text="Reset"
+        android:textAllCaps="true" />
+
+</RelativeLayout>
