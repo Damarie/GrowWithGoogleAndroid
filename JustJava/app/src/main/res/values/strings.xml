@@ -1,3 +1,20 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/aandroid"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Just Java</string>
+    <string name="name_placeholder">Name</string>
+    <string name="toppings_label">Toppings</string>
+    <string name="whipped_cream_label">Whipped Cream</string>
+    <string name="chocolate_label">Chocolate</string>
+    <string name="quantity_label">Quantity</string>
+    <string name="default_value">2</string>
+    <string name="order_button">Order</string>
+    <string name="coffee_email_subject">Coffee Order Incoming!</string>
+    <string name="add_whipped_cream">Add whipped cream?</string>
+    <string name="add_chocolate">Add chocolate?</string>
+    <string name="total_cost">Total: $</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="too_many_alert">No more than 100 cups!</string>
+    <string name="too_few_alert">Can\'t order zero or negative cups</string>
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="2">%d</xliff:g></string>
 </resources>
