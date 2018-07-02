@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Music Appreciation Quiz</string>
+    <string name="question1">What instrument do you play?</string>
+    <string name="question2">What level of experience do you have?</string>
+    <string name="question3">Which instrument(s) are percussive?</string>
+    <string name="question4">Which term(s) mean to alter the pitch of a note?</string>
+    <string name="question5">Which instrument is the most numerous in an orchestra?</string>
+    <string name="question6">What period of time includes Classical music?</string>
+
+    <string-array name="experience_levels">
+        <item>None</item>
+        <item>Beginner</item>
+        <item>Adv. Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+        <item>Professional</item>
+    </string-array>
+
+    <string name="answer3_a">Timpani</string>
+    <string name="answer3_b">Cymbals</string>
+    <string name="answer3_c">Trombone</string>
+
+    <string name="answer4_a">flat</string>
+    <string name="answer4_b">sharp</string>
+    <string name="answer4_c">tremolo</string>
+
+    <string name="answer5_a">Violin</string>
+    <string name="answer5_b">Trumpet</string>
+    <string name="answer5_c">Contrabass</string>
+
+    <string name="answer6_a">1920-1929</string>
+    <string name="answer6_b">1750-1820</string>
+    <string name="answer6_c">1875-1900</string>
+
+    <string name="submit_button">Submit</string>
+</resources>
