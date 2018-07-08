@@ -5,7 +5,7 @@ android {
     buildToolsVersion '27.0.3'
 
     defaultConfig {
-        applicationId "com.example.android.miwok"
+        applicationId "com.damarie.miwok"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1
