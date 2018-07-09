@@ -36,19 +36,19 @@ public class ReportCard {
     }
 
     public double getHistoryGrade() {
-        return mEnglishGrade;
+        return mHistoryGrade;
     }
 
     public double getScienceGrade() {
-        return mEnglishGrade;
+        return mScienceGrade;
     }
 
     public double getArtGrade() {
-        return mEnglishGrade;
+        return mArtGrade;
     }
 
     public double getHealthGrade() {
-        return mEnglishGrade;
+        return mHealthGrade;
     }
 
     public void addEnglishGrade(double grade) {
@@ -57,7 +57,7 @@ public class ReportCard {
         for (int count = 0; count < mEnglishGrades.size(); count++) {
             tempSum += (double) mEnglishGrades.get(count);
         }
-        mEnglishGrade = tempSum;
+        mEnglishGrade = tempSum / mEnglishGrades.size();
     }
 
     public void addHistoryGrade(double grade) {
@@ -66,7 +66,7 @@ public class ReportCard {
         for (int count = 0; count < mHistoryGrades.size(); count++) {
             tempSum += (double) mHistoryGrades.get(count);
         }
-        mHistoryGrade = tempSum;
+        mHistoryGrade = tempSum / mHistoryGrades.size();
     }
 
     public void addScienceGrade(double grade) {
@@ -75,7 +75,7 @@ public class ReportCard {
         for (int count = 0; count < mScienceGrades.size(); count++) {
             tempSum += (double) mScienceGrades.get(count);
         }
-        mScienceGrade = tempSum;
+        mScienceGrade = tempSum / mScienceGrades.size();
     }
 
     public void addArtGrade(double grade) {
@@ -84,7 +84,7 @@ public class ReportCard {
         for (int count = 0; count < mArtGrades.size(); count++) {
             tempSum += (double) mArtGrades.get(count);
         }
-        mArtGrade = tempSum;
+        mArtGrade = tempSum / mArtGrades.size();
     }
 
     public void addHealthGrade(double grade) {
@@ -93,7 +93,7 @@ public class ReportCard {
         for (int count = 0; count < mHealthGrades.size(); count++) {
             tempSum += (double) mHealthGrades.get(count);
         }
-        mHealthGrade = tempSum;
+        mHealthGrade = tempSum / mHealthGrades.size();
     }
 
     @Override
